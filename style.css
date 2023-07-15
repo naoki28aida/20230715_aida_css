@@ -1,0 +1,53 @@
+.enshu{
+    display: flex;
+    justify-content: space-between
+}
+
+.enshu__ttl{
+    padding: 20px;
+    font-weight: bold;
+    font-size: 35px;
+    color: #0B3083;
+
+}
+
+.enshu__nav--ttl1,.enshu__nav--ttl2,.enshu__nav--ttl3,.enshu__nav--ttl4{
+    display: block;
+    padding: 20px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.enshu__gazou{
+    width: 100%;
+        position: absolute;
+        bottom: 150px;
+        right: -50%;
+}
+
+.enshu__gazou img {
+    width: 50%;
+}
+
+
+.enshu__back{
+    position: absolute;
+    bottom: 50px;
+    width: 70%;
+    height: 200px;
+    background-color: #00277E;
+    z-index: -1;
+}
+
+.enshu__moji{
+    position: absolute;
+        bottom: 250px;
+        font-size: 70px;
+        font-weight: 500;
+}
+
+ul {
+    padding-left: 0;
+    display: flex;
+    list-style: none;
+}
