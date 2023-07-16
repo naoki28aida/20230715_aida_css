@@ -18,15 +18,21 @@
     font-weight: 600;
 }
 
-.enshu__gazou{
-    width: 100%;
-        position: absolute;
-        bottom: 150px;
-        right: -50%;
+
+.enshu__gazou {
+position: relative;
+    top: 80px;
+    left: 0px;
 }
 
-.enshu__gazou img {
+.enshu__gazou--naibu{
     width: 50%;
+    margin: 0 0 0 auto;
+
+}
+
+.enshu__gazou--naibu img {
+    width: 100%;
 }
 
 
